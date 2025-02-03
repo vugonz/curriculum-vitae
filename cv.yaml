@@ -1,0 +1,141 @@
+cv:
+  name: Gonçalo Azevedo
+  email: goncalo.r.azevedo@tecnico.ulisboa.pt
+  website: https://vugonz.xyz
+  social_networks:
+    - network: LinkedIn
+      username: goncalorazevedo
+    - network: GitHub
+      username: vugonz
+  sections:
+    education:
+      - institution: Instituto Superior Técnico
+        area: Computer Science and Engineering
+        degree: Bachelor
+        start_date: 2021-10
+        end_date: 2025-07
+    open source contributions:
+      - name: Apache Airflow
+        date: '[Airflow PR #39873](https://github.com/apache/airflow/pull/39873)'
+        highlights:
+          - Simplified authentication for Airflow Google Cloud Operator pipelines, eliminating the need to store and manage sensitive information on the host machine.
+          - 'Tools used: Python, Docker, Keycloak'
+      - name: leic.pt
+        date: '[Contributions](https://github.com/leic-pt/resumos-leic/commits/master/?author=vugonz)'
+        highlights:
+          - Developed and shared study materials on Algebra and Statistics, enhancing accessibility for students.
+          - Identified and corrected inaccuracies in existing content, improving overall resource quality.
+          - 'Tools used: Markdown, Latex'
+    other experience:
+      - company: Associação Crato+
+        position: Member
+        start_date: 2021-01
+        end_date: present
+        highlights:
+          - Organized and managed events to engage and dynamize the local community.
+          - Handled technical operations, including domain setup and hosting static pages to enhance the organization's online presence.
+      - company: Linux Install Party
+        position: Volunteer
+        date: 2022-10
+        highlights:
+          - 'Volunteered in assisting students in their first installation of Linux.'
+      - company: HackerSchool
+        position: Team Coordinator & Human Resources
+        start_date: 2023-03
+        end_date: present
+        highlights:
+          - Led the HS-API team in developing an internal management application.
+          - Planned workshops and managed onboarding as part of the Human Resources team.
+    projects:
+      - name: Curricular
+        highlights:
+        - '[https://vugonz.xyz/curricular-projects](https://vugonz.xyz/curricular-projects)'
+      - name: Personal
+        highlights:
+          - '[https://vugonz.xyz/personal-projects](https://vugonz.xyz/personal-projects)'
+      - name: HS-API
+        date: '[API](https://github.com/HackerSchool/HS-API), [CLI](https://github.com/HackerSchool/hs-cli)'
+        highlights:
+          - Developed a CRUD API at HackerSchool for managing personnel, projects, and workshops, along with a CLI interface.
+          - 'Tools used: Go, Flask, SQLite'
+    technologies:
+      - label: Languages
+        details: Python, Go, Javascript, Java, C/C++, Bash, SQL
+      - label: Tools
+        details: Arch Linux, VSCode, Git, Docker, Obsidian
+      - label: Frameworks
+        details: Flask, Vue.js, Django
+
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  # page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  # disable_last_updated_date: false
+  # last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  # seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to
+
