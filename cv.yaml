@@ -27,18 +27,6 @@ cv:
           - Identified and corrected inaccuracies in existing content, improving overall resource quality.
           - 'Tools used: Markdown, LaTex'
     other experience:
-      - company: Associação Crato+
-        position: Member
-        start_date: 2021-01
-        end_date: present
-        highlights:
-          - Organized and managed events to engage and dynamize the local community.
-          - Handled technical operations, including domain setup and hosting static pages to enhance the organization's online presence.
-      - company: Linux Install Party
-        position: Volunteer
-        date: 2022-10
-        highlights:
-          - 'Volunteered in assisting students in their first installation of Linux.'
       - company: HackerSchool
         position: Team Coordinator & Human Resources
         start_date: 2023-03
@@ -46,6 +34,18 @@ cv:
         highlights:
           - Led the HS-API team in developing an internal management application.
           - Planned workshops and managed onboarding as part of the Human Resources team.
+      - company: Linux Install Party
+        position: Volunteer
+        date: 2022-10
+        highlights:
+          - 'Volunteered in assisting students in their first installation of Linux.'
+      - company: Associação Crato+
+        position: Member
+        start_date: 2021-01
+        end_date: present
+        highlights:
+          - Organized and managed events to engage and dynamize the local community.
+          - Handled technical operations, including domain setup and hosting static pages to enhance the organization's online presence.
     projects:
       - name: Curricular
         highlights:
