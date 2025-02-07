@@ -47,17 +47,17 @@ cv:
           - Organized and managed events to engage and dynamize the local community.
           - Handled technical operations, including domain setup and hosting static pages to enhance the organization's online presence.
     projects:
-      - name: Curricular
-        highlights:
-        - '[https://vugonz.xyz/curricular-projects](https://vugonz.xyz/curricular-projects)'
-      - name: Personal
-        highlights:
-          - '[https://vugonz.xyz/personal-projects](https://vugonz.xyz/personal-projects)'
       - name: HS-API
         date: '[API](https://github.com/HackerSchool/HS-API), [CLI](https://github.com/HackerSchool/hs-cli)'
         highlights:
           - Developed a CRUD API at HackerSchool for managing personnel, projects, and workshops, along with a CLI interface.
           - 'Tools used: Go, Flask, SQLite'
+      - name: Personal
+        highlights:
+          - '[https://vugonz.xyz/personal-projects](https://vugonz.xyz/personal-projects)'
+      - name: Curricular
+        highlights:
+        - '[https://vugonz.xyz/curricular-projects](https://vugonz.xyz/curricular-projects)'
     technologies:
       - label: Languages
         details: Python, Go, Javascript, Java, C/C++, Bash, SQL
