@@ -19,20 +19,15 @@ cv:
         date: '[Airflow PR #39873](https://github.com/apache/airflow/pull/39873)'
         highlights:
           - Simplified authentication for Airflow Google Cloud Operator pipelines, eliminating the need to store and manage sensitive information on the host machine.
-          - 'Tools used: Python, Docker, Keycloak'
-      - name: leic.pt
-        date: '[Contributions](https://github.com/leic-pt/resumos-leic/commits/master/?author=vugonz)'
-        highlights:
-          - Developed and shared study materials on Algebra and Statistics, enhancing accessibility for students.
-          - Identified and corrected inaccuracies in existing content, improving overall resource quality.
-          - 'Tools used: Markdown, LaTex'
+          - 'Tools used: Python, Google Cloud, Keycloak, Docker'
     other experience:
       - company: HackerSchool
-        position: Team Coordinator & Human Resources
+        position: Team Coordinator & Developer & Human Resources
         start_date: 2023-03
         end_date: present
         highlights:
           - Led the HS-API team in developing an internal management application.
+          - Developed a computer vision model to identify photovoltaic panels in aerial imagery as part of the HS-Solar team.
           - Planned workshops and managed onboarding as part of the Human Resources team.
       - company: Linux Install Party
         position: Volunteer
@@ -52,12 +47,11 @@ cv:
         highlights:
           - Developed a CRUD API at HackerSchool for managing personnel, projects, and workshops, along with a CLI interface.
           - 'Tools used: Go, Flask, SQLite'
-      - name: Personal
+      - name: HS-Solar
+        date: '[Solar](https://github.com/HackerSchool/hs-solar/tree/main/solar-panel-detection)'
         highlights:
-          - '[https://vugonz.xyz/personal-projects](https://vugonz.xyz/personal-projects)'
-      - name: Curricular
-        highlights:
-        - '[https://vugonz.xyz/curricular-projects](https://vugonz.xyz/curricular-projects)'
+          - Trained a YOLOv8-L model to detect photovoltaic installations from multi-sensor data, as part of a system to identify potential sites for new solar deployments. 
+          - 'Tools used: YOLOv8, Google Colab, Flask'
     technologies:
       - label: Languages
         details: Python, Go, Javascript, Java, C/C++, Bash, SQL
@@ -67,7 +61,7 @@ cv:
         details: Flask, Vue.js, Django
 
 design:
-  theme: sb2nov
+  theme: sb2nov 
   font: Latin Modern Serif
   font_size: 10pt
   page_size: letterpaper
