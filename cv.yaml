@@ -20,6 +20,17 @@ cv:
         highlights:
           - Simplified authentication for Airflow Google Cloud Operator pipelines, eliminating the need to store and manage sensitive information on the host machine.
           - 'Tools used: Python, Google Cloud, Keycloak, Docker'
+    projects:
+      - name: HS-API
+        date: '[API](https://github.com/HackerSchool/HS-API), [CLI](https://github.com/HackerSchool/hs-cli)'
+        highlights:
+          - Developed a CRUD API for managing personnel, projects, and workshops at Hackerschool, along with a CLI interface.
+          - 'Tools used: Go, Flask, SQLite'
+      - name: HS-Solar
+        date: '[Solar](https://github.com/HackerSchool/hs-solar/tree/main/solar-panel-detection)'
+        highlights:
+          - Trained a YOLOv8-L model to detect photovoltaic installations from multi-sensor data, as part of a system to identify potential sites for new solar deployments. 
+          - 'Tools used: YOLOv8, Google Colab, Flask'
     other experience:
       - company: HackerSchool
         position: Team Coordinator & Developer & Human Resources
@@ -41,17 +52,6 @@ cv:
         highlights:
           - Organized and managed events to engage and dynamize the local community.
           - Handled technical operations, including domain setup and hosting static pages to enhance the organization's online presence.
-    projects:
-      - name: HS-API
-        date: '[API](https://github.com/HackerSchool/HS-API), [CLI](https://github.com/HackerSchool/hs-cli)'
-        highlights:
-          - Developed a CRUD API at HackerSchool for managing personnel, projects, and workshops, along with a CLI interface.
-          - 'Tools used: Go, Flask, SQLite'
-      - name: HS-Solar
-        date: '[Solar](https://github.com/HackerSchool/hs-solar/tree/main/solar-panel-detection)'
-        highlights:
-          - Trained a YOLOv8-L model to detect photovoltaic installations from multi-sensor data, as part of a system to identify potential sites for new solar deployments. 
-          - 'Tools used: YOLOv8, Google Colab, Flask'
     technologies:
       - label: Languages
         details: Python, Go, Javascript, Java, C/C++, Bash, SQL
@@ -59,6 +59,8 @@ cv:
         details: Arch Linux, VSCode, Git, Docker, Obsidian
       - label: Frameworks
         details: Flask, Vue.js, Django
+
+
 
 design:
   theme: sb2nov 
